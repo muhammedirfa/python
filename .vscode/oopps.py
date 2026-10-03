@@ -27,7 +27,49 @@
 # emp.display_info()
 
 
+# class Dog:
+#     def speak(self):
+#         print("Dog : shadil,shadi")
+
+# dog1 = Dog()
+# dog1.speak()
 
 
+# class Animal:
+#     def speak(self):
+#         print("Animal speaks")
+
+# class Dog(Animal):
+#     pass
+
+# dog = Dog()
+# dog.speak()
+
+
+
+# class Animal:
+#     def speak(self):
+#         print("Animal speaks")
+
+# class Dog(Animal):
+#     pass
+
+# dog = Dog()
+# dog.speak()
+
+
+class Dog:
+    def speak(self):
+        print("Woof")
+
+class Cat:
+    def speak(self):
+        print("Meow")
+
+dog = Dog()
+cat = Cat()
+
+dog.speak()
+cat.speak()
 
 
