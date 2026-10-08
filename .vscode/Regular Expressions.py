@@ -28,4 +28,10 @@ text = "HELLO world"
 print(re.search(r"hello", text, re.IGNORECASE)) 
 
 
+text = """first line
+second line
+third line"""
+print(re.findall(r"^s\w+", text, re.MULTILINE))
 
+text = "Hello\nWorld"
+print(re.search(r"Hello.*World", text))

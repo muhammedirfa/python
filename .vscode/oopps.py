@@ -95,9 +95,9 @@
 # from abc import ABC, abstractmethod
 
 # class shape(ABC):
-    @abstractmethod
-    def area(self):
-        pass
+    # @abstractmethod
+    # def area(self):
+    #     pass
 
 #  class rectangle(shape):
 #      def _init_(self,width,height):
