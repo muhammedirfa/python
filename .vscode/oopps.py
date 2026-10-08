@@ -58,18 +58,66 @@
 # dog.speak()
 
 
-class Dog:
-    def speak(self):
-        print("Woof")
+# class Dog:
+#     def speak(self):
+#         print("Woof")
 
-class Cat:
-    def speak(self):
-        print("Meow")
+# class Cat:
+#     def speak(self):
+#         print("Meow")
 
-dog = Dog()
-cat = Cat()
+# dog = Dog()
+# cat = Cat()
 
-dog.speak()
-cat.speak()
+# dog.speak()
+# cat.speak()
+
+#Abstractmethod
+
+# from abc import ABC, abstractmethod
+
+# class Shape(ABC):
+#     @abstractmethod
+#     def area(self):
+#         pass
+# class Rectangle(Shape):
+#     def __init__(self,width,height):
+#         self.width = width
+#         self,height = height
+
+#     def area(self):
+#         print(self.width * self.height)
+
+# r = Rectangle(10,5)
+# r.area()
+
+
+# from abc import ABC, abstractmethod
+
+# class shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+
+#  class rectangle(shape):
+#      def _init_(self,width,height):
+#          self.width=width
+#          self.height=height
+# class circle(shape):
+#     def __init__(self,radius):
+#         self.r=radius
+    
+
+#     def area(self):
+#         return 3.14 * self.r * self.r
+
+# c=circle(5)
+# print(c.area())
+
+
+
+
+
+
 
 
